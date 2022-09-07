@@ -1,4 +1,4 @@
-class Category:
+
     def __init__(self, description):
         self.description = description
         self.ledger = []
