@@ -1,3 +1,4 @@
+class Category:
 
     def __init__(self, description):
         self.description = description
@@ -80,3 +81,8 @@ def create_spend_chart(categories):
         footer += "    " + "".join(map(lambda s: s.center(3), x)) + " \n"
 
     return (header + chart + footer).rstrip("\n")
+
+
+
+
+# Completed the project
